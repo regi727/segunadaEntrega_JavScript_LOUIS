@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: rgb(5, 5, 122);
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px  rgba(0, 0, 5, 2.4);
+   border: 1px solid;
+   box-shadow: 1px 1px 1px 1px rgba(0, 0, 5, 2.4);
+   border-color: green;
+}
+p{
+    margin-top: 40px;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    color: green;
+}
