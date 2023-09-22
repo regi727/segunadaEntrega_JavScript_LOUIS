@@ -12,7 +12,7 @@ function pedirDatos() {
     pass = prompt("Ingrese su contraseña :");
 }
 pedirDatos();
-if (user === '' || pass === '') {
+if (user === '' || pass === '' || user === null || pass === null) {
     alert("Debes ingresar un nombre de usuario y una contrasena.")
 } else {
     usuario.push(user);
